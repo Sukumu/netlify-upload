@@ -7,5 +7,5 @@
 
 [build]
   base    = ""
-  publish = "build/reports/buildDashboard"
-  command = "./gradlew buildDashboard"
+  publish = "build/docs/orchid"
+  command = "./gradlew orchidBuild -Penv=prod"
