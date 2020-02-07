@@ -8,4 +8,4 @@
 [build]
   base    = ""
   publish = ""
-  command = "npm run"
+  command = "./mvnw clean site"
